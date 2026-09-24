@@ -1,0 +1,27 @@
+# 5 UGVs crossing between the two rooms of the narrow_corridors world through two
+# single-lane corridors (3 left->right, 2 right->left). Poses are MAPF cell centroids.
+robots:
+  - id: 0
+    type: "SmallDeliveryRobot"
+    start: [-8.400, 3.600, 0.00]  # MAPF cell [2, 1]
+    goal: [8.400, -3.600]  # MAPF cell [16, 7]
+
+  - id: 1
+    type: "SmallDeliveryRobot"
+    start: [-9.600, 0.000, 0.00]  # MAPF cell [1, 4]
+    goal: [9.600, 1.200]  # MAPF cell [17, 3]
+
+  - id: 2
+    type: "SmallDeliveryRobot"
+    start: [-8.400, -3.600, 0.00]  # MAPF cell [2, 7]
+    goal: [7.200, 3.600]  # MAPF cell [15, 1]
+
+  - id: 3
+    type: "SmallDeliveryRobot"
+    start: [8.400, 3.600, 3.14]  # MAPF cell [16, 1]
+    goal: [-9.600, -2.400]  # MAPF cell [1, 6]
+
+  - id: 4
+    type: "SmallDeliveryRobot"
+    start: [9.600, -1.200, 3.14]  # MAPF cell [17, 5]
+    goal: [-7.200, 1.200]  # MAPF cell [3, 3]

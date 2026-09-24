@@ -1,0 +1,32 @@
+| world | humans | w | solved | median runtime [s] | mean objective gap to best found |
+|---|---|---|---|---|---|
+| narrow_corridors | 0 | 1 | 5/5 | 0.000 | 0.00% |
+| narrow_corridors | 0 | 1.05 | 5/5 | 0.000 | 0.00% |
+| narrow_corridors | 0 | 1.1 | 5/5 | 0.000 | 0.00% |
+| narrow_corridors | 0 | 1.2 | 5/5 | 0.000 | 0.00% |
+| narrow_corridors | 0 | 1.5 | 5/5 | 0.000 | 0.00% |
+| narrow_corridors | 10 | 1 | 3/5 | 9.947 | 0.00% |
+| narrow_corridors | 10 | 1.05 | 5/5 | 0.007 | 0.43% |
+| narrow_corridors | 10 | 1.1 | 5/5 | 0.007 | 1.27% |
+| narrow_corridors | 10 | 1.2 | 5/5 | 0.006 | 1.27% |
+| narrow_corridors | 10 | 1.5 | 5/5 | 0.007 | 1.27% |
+| narrow_corridors | 20 | 1 | 4/5 | 2.252 | 0.00% |
+| narrow_corridors | 20 | 1.05 | 2/5 | 10.060 | 0.00% |
+| narrow_corridors | 20 | 1.1 | 5/5 | 0.045 | 1.18% |
+| narrow_corridors | 20 | 1.2 | 5/5 | 0.045 | 1.18% |
+| narrow_corridors | 20 | 1.5 | 5/5 | 0.047 | 1.18% |
+| depot | 0 | 1 | 5/5 | 0.000 | 0.00% |
+| depot | 0 | 1.05 | 5/5 | 0.000 | 0.00% |
+| depot | 0 | 1.1 | 5/5 | 0.000 | 0.00% |
+| depot | 0 | 1.2 | 5/5 | 0.000 | 0.00% |
+| depot | 0 | 1.5 | 5/5 | 0.000 | 0.00% |
+| depot | 10 | 1 | 0/5 | 10.151 | nan% |
+| depot | 10 | 1.05 | 5/5 | 5.432 | 0.00% |
+| depot | 10 | 1.1 | 5/5 | 0.036 | 0.24% |
+| depot | 10 | 1.2 | 5/5 | 0.034 | 0.24% |
+| depot | 10 | 1.5 | 5/5 | 0.035 | 0.24% |
+| depot | 20 | 1 | 0/5 | 10.088 | nan% |
+| depot | 20 | 1.05 | 0/5 | 10.108 | nan% |
+| depot | 20 | 1.1 | 5/5 | 0.018 | 0.00% |
+| depot | 20 | 1.2 | 5/5 | 0.018 | 0.00% |
+| depot | 20 | 1.5 | 5/5 | 0.018 | 0.00% |

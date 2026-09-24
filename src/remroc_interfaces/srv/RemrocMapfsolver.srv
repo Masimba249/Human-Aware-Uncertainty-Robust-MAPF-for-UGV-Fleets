@@ -1,0 +1,32 @@
+# Start (poses[0]) and goal (poses[1]) grid cell of every robot to plan for.
+RemrocPose2darray[] poses
+
+# ---- Human-aware extensions. Their default values reproduce the original solver. ----
+# Time-indexed human occupancy risk. Empty data -> no risk costs.
+RemrocRiskMap risk_map
+# lambda: cost of a step into cell v at time t is 1 + risk_weight * risk(t, v).
+float64 risk_weight
+# Timed grid paths of robots that are NOT re-planned (local plan repair). A reserved
+# robot occupies poses[t] at step t and stays at poses[-1] afterwards. Hard constraints.
+RemrocPose2darray[] reservations
+# Wall-clock limit for the search in seconds. 0 -> use the server's default.
+float64 time_limit
+# k-robustness: no two robots in the same cell within k steps (1 forbids following and
+# rotations, which keeps Action Dependency Graphs acyclic). 0 = classical CBS.
+uint8 robustness
+# Bounded suboptimality w >= 1 (focal search): cost <= w * optimal. 0 or 1 -> optimal.
+float64 suboptimality
+---
+# One timed path per robot (ids as in the request). poses[t] is the cell at step t.
+RemrocPose2darray[] robots_waypoint_array
+bool success
+string status
+# Risk-weighted objective sum_i sum_t (1 + risk_weight * risk), in steps.
+float64 objective
+# Classical sum of costs and makespan in steps.
+uint32 sum_of_costs
+uint32 makespan
+# Expected number of robot-human co-occupancy events of the plan: sum_i sum_t risk.
+float64 total_risk
+float64 solve_time
+uint32 high_level_expanded

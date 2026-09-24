@@ -1,2 +1,13 @@
 # Google App Engine generated folder
 appengine-generated/
+
+# build artefacts
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.pytest_cache/
+# large experiment logs
+results/**/logs/
+results/remroc/
